@@ -17,7 +17,7 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: 'CNCS权威',
   HEO_HERO_TITLE_2: '饰品排行榜',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
+  HEO_HERO_TITLE_3: 'CSGO2.WIKI',
   HEO_HERO_TITLE_4: '千瓦武器箱',
   HEO_HERO_TITLE_5: '廓尔喀（尼泊尔）淬火模板排行榜',
   HEO_HERO_TITLE_LINK: 'https://notion-next-five-sigma-21.vercel.app/article/example-1?theme=heo',
