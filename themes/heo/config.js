@@ -38,7 +38,7 @@ const CONFIG = {
     '🔍 CNCS饰品排行榜',
     '🧱 数据派饰品收藏家'
   ],
-  HEO_INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  HEO_INFO_CARD_URL: 'https://www.csgo2.wiki/article/contact', // 个人资料底部按钮链接
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
