@@ -6,7 +6,7 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: '网站还在建设当中，敬请谅解，如果您是抖音来的，在首页可以找到您需要的排行内容', url: 'https://www.csgo2.wiki' },
-    { title: '🎉最新廓尔喀（尼泊尔）淬火模板排行榜 新鲜出炉！！🎉', url: 'https://notion-next-five-sigma-21.vercel.app/article/example-1?theme=heo' }
+    { title: '🎉最新廓尔喀（尼泊尔）淬火模板排行榜 新鲜出炉！！🎉', url: 'https://www.csgo2.wiki/article/kukri' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -20,7 +20,7 @@ const CONFIG = {
   HEO_HERO_TITLE_3: 'CSGO2.WIKI',
   HEO_HERO_TITLE_4: '千瓦武器箱',
   HEO_HERO_TITLE_5: '廓尔喀（尼泊尔）淬火模板排行榜',
-  HEO_HERO_TITLE_LINK: 'https://notion-next-five-sigma-21.vercel.app/article/example-1?theme=heo',
+  HEO_HERO_TITLE_LINK: 'https://www.csgo2.wiki/article/kukri',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
