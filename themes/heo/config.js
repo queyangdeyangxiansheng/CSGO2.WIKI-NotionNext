@@ -5,7 +5,7 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '网站还在建设当中，敬请谅解，如果您是抖音来的，在首页可以找到您需要的排行内容', url: 'https://www.csgo2.wiki/' },
+    { title: '网站还在建设当中，敬请谅解，如果您是抖音来的，在首页可以找到您需要的排行内容', url: 'https://www.csgo2.wiki' },
     { title: '🎉最新廓尔喀（尼泊尔）淬火模板排行榜 新鲜出炉！！🎉', url: 'https://notion-next-five-sigma-21.vercel.app/article/example-1?theme=heo' }
   ],
 
