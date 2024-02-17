@@ -5,8 +5,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: 'CNCS权威饰品排行榜', url: 'https://blog.tangly1024.com' },
-    { title: '', url: '' }
+    { title: 'CNCS权威饰品排行榜', url: 'https://www.csgo2.wiki/' },
+    { title: '🎉最新廓尔喀（尼泊尔）淬火模板排行榜 新鲜出炉！！🎉', url: 'https://notion-next-five-sigma-21.vercel.app/article/example-1?theme=heo' }
   ],
 
   // 英雄区左右侧组件颠倒位置
