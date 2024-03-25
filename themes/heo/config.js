@@ -18,9 +18,9 @@ const CONFIG = {
   HEO_HERO_TITLE_1: 'CNCS权威',
   HEO_HERO_TITLE_2: '饰品排行榜',
   HEO_HERO_TITLE_3: 'CSGO2.WIKI',
-  HEO_HERO_TITLE_4: '千瓦武器箱',
-  HEO_HERO_TITLE_5: '廓尔喀（尼泊尔）淬火模板排行榜',
-  HEO_HERO_TITLE_LINK: 'https://www.csgo2.wiki/article/kukri',
+  HEO_HERO_TITLE_4: '冰火爪子刀',
+  HEO_HERO_TITLE_5: '爪子刀（渐变大理石）冰火档位榜',
+  HEO_HERO_TITLE_LINK: 'https://www.csgo2.wiki/article/knife_karambit_413',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
