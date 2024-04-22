@@ -5,8 +5,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '网站还在建设当中，敬请谅解，如果您是抖音来的，在首页可以找到您需要的排行内容', url: 'https://www.csgo2.wiki' },
-    { title: '🎉最新廓尔喀（尼泊尔）淬火模板排行榜 新鲜出炉！！🎉', url: 'https://www.csgo2.wiki/article/kukri' }
+    { title: '网站还在建设当中，如有不完善的请加群催更，如果您是抖音来的，在首页可以找到您需要的排行内容', url: 'https://www.csgo2.wiki' },
+    { title: '🎉爪子刀伽玛多普勒P4档位榜新鲜出炉！！🎉', url: 'https://www.csgo2.wiki/article/knife_karambit_572' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -18,9 +18,9 @@ const CONFIG = {
   HEO_HERO_TITLE_1: 'CNCS权威',
   HEO_HERO_TITLE_2: '饰品排行榜',
   HEO_HERO_TITLE_3: 'CSGO2.WIKI',
-  HEO_HERO_TITLE_4: '冰火爪子刀',
-  HEO_HERO_TITLE_5: '爪子刀（渐变大理石）冰火档位榜',
-  HEO_HERO_TITLE_LINK: 'https://www.csgo2.wiki/article/knife_karambit_413',
+  HEO_HERO_TITLE_4: '琉璃双翠',
+  HEO_HERO_TITLE_5: '爪子刀伽玛多普勒P4档位榜',
+  HEO_HERO_TITLE_LINK: 'https://www.csgo2.wiki/article/knife_karambit_572',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
