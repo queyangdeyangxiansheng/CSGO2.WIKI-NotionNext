@@ -5,7 +5,7 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '网站还在建设当中，如有不完善的请加群催更，如果您是抖音来的，在首页可以找到您需要的排行内容', url: 'https://www.csgo2.wiki' },
+    { title: '内部高端饰品交易平台（微信群可用）', url: 'https://www.csgo2.wiki/article/trade' },
     { title: '🎉爪子刀伽玛多普勒P4档位榜新鲜出炉！！🎉', url: 'https://www.csgo2.wiki/article/knife_karambit_572' }
   ],
 
