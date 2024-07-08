@@ -37,9 +37,7 @@ const GlobalHead = (props) => {
           content={siteConfig('SEO_GOOGLE_SITE_VERIFICATION')}
         />
       )}
-      {siteConfig('SEO_BAIDU_SITE_VERIFICATION') && (
-        <meta name="baidu-site-verification" content={siteConfig('SEO_BAIDU_SITE_VERIFICATION')} />
-      )}
+      {siteConfig('SEO_BAIDU_SITE_VERIFICATION') && (<meta name="baidu-site-verification" content={siteConfig('SEO_BAIDU_SITE_VERIFICATION')} />)}
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
       <meta property="og:locale" content={lang} />
@@ -52,18 +50,18 @@ const GlobalHead = (props) => {
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:title" content={title} />
-  
+
       {siteConfig('COMMENT_WEBMENTION_ENABLE') && (
         <>
           <link rel="webmention" href={`https://webmention.io/${siteConfig('COMMENT_WEBMENTION_HOSTNAME')}/webmention`} />
           <link rel="pingback" href={`https://webmention.io/${siteConfig('COMMENT_WEBMENTION_HOSTNAME')}/xmlrpc`} />
         </>
       )}
-  
+
       {siteConfig('COMMENT_WEBMENTION_ENABLE') && siteConfig('COMMENT_WEBMENTION_AUTH') !== '' && (
         <link href={siteConfig('COMMENT_WEBMENTION_AUTH')} rel="me" />
       )}
-  
+
       {JSON.parse(siteConfig('ANALYTICS_BUSUANZI_ENABLE')) && <meta name="referrer" content="no-referrer-when-downgrade" />}
       {meta?.type === 'Post' && (
         <>
@@ -88,18 +86,23 @@ const GlobalHead = (props) => {
     `
         }}
       />
-      {/* Google tag (gtag.js) */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-V08WKYM98S"></script>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-V08WKYM98S');
-    `
-        }}
+      <script 
+      dangerouslySetInnerHTML={{
+        __html: `
+      async src="https://www.googletagmanager.com/gtag/js?id=G-V08WKYM98S"
+      `
+      }}
+      />
+      <script 
+      dangerouslySetInnerHTML={{
+        __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-V08WKYM98S');
+      `
+      }}
       />
     </Head>
   )
