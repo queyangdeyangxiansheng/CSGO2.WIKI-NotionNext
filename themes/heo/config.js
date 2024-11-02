@@ -18,9 +18,9 @@ const CONFIG = {
   HEO_HERO_TITLE_1: 'CNCS权威',
   HEO_HERO_TITLE_2: '饰品排行榜',
   HEO_HERO_TITLE_3: 'CSGO2.WIKI',
-  HEO_HERO_TITLE_4: '全新原创发布',
-  HEO_HERO_TITLE_5: 'CSGO2.Wiki 特殊模板捡漏大师',
-  HEO_HERO_TITLE_LINK: 'https://www.csgo2.wiki/article/RareHunter',
+  HEO_HERO_TITLE_4: '共建网站',
+  HEO_HERO_TITLE_5: 'CSGO2.Wiki 长期抽奖活动',
+  HEO_HERO_TITLE_LINK: 'https://www.csgo2.wiki/article/bigroll',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '刀类排行', url: '/tag/刀' },
