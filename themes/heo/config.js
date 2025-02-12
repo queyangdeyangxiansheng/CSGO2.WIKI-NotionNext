@@ -6,7 +6,7 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: '内部高端饰品交易平台（微信群可用）', url: 'https://www.csgo2.wiki/article/trade' },
-    { title: '🎉CSGO2.Wiki 特殊模板捡漏大师全新发布🎉', url: 'https://www.csgo2.wiki/article/RareHunter' }
+    { title: '🎉CSGO2.Wiki 特殊模板捡漏大师V2.0全新发布🎉', url: 'https://www.csgo2.wiki/article/RareHunter' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -18,9 +18,9 @@ const CONFIG = {
   HEO_HERO_TITLE_1: 'CNCS权威',
   HEO_HERO_TITLE_2: '饰品排行榜',
   HEO_HERO_TITLE_3: 'CSGO2.WIKI',
-  HEO_HERO_TITLE_4: '共建网站',
-  HEO_HERO_TITLE_5: 'CSGO2.Wiki 长期抽奖活动',
-  HEO_HERO_TITLE_LINK: 'https://www.csgo2.wiki/article/bigroll',
+  HEO_HERO_TITLE_4: '支持UU、BUFF、入档模板高亮、历史价格查询',
+  HEO_HERO_TITLE_5: '🎉CSGO2.Wiki 特殊模板捡漏大师V2.0全新发布🎉',
+  HEO_HERO_TITLE_LINK: 'https://www.csgo2.wiki/article/RareHunter',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '刀类排行', url: '/tag/刀' },
