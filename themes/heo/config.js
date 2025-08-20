@@ -1,4 +1,7 @@
 const CONFIG = {
+  HEO_HOME_POST_TWO_COLS: true, // 首页博客两列显示，若为false则只显示一列
+  HEO_LOADING_COVER: true, // 页面加载的遮罩动画
+
   HEO_HOME_BANNER_ENABLE: true,
 
   HEO_SITE_CREATE_TIME: '2023-09-21', // 建站日期，用于计算网站运行的第几天
@@ -6,7 +9,7 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: '内部高端饰品交易平台（微信群可用）', url: 'https://www.csgo2.wiki/article/trade' },
-    { title: '🎉CSGO2.Wiki 特殊模板捡漏大师V2.0全新发布🎉', url: 'https://www.csgo2.wiki/article/RareHunter' }
+    { title: '🎉CSGO2.Wiki 特殊模板捡漏大师V3.0全新发布🎉', url: 'https://www.csgo2.wiki/article/RareHunter' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -21,6 +24,8 @@ const CONFIG = {
   HEO_HERO_TITLE_4: '支持UU、BUFF、入档模板高亮、历史价格查询',
   HEO_HERO_TITLE_5: '🎉CSGO2.Wiki 特殊模板捡漏大师V2.0全新发布🎉',
   HEO_HERO_TITLE_LINK: 'https://www.csgo2.wiki/article/RareHunter',
+  // 英雄区遮罩文字
+  HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '刀类排行', url: '/tag/刀' },
@@ -38,6 +43,8 @@ const CONFIG = {
     '🔍 CNCS饰品排行榜',
     '🧱 数据派饰品收藏家'
   ],
+
+  // 个人资料底部按钮
   HEO_INFO_CARD_URL: 'https://www.csgo2.wiki/article/contact', // 个人资料底部按钮链接
 
   // 用户技能图标
@@ -106,6 +113,12 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
   HEO_SOCIAL_CARD_URL: 'https://www.csgo2.wiki/article/contact',
 
+  // 底部统计面板文案
+  HEO_POST_COUNT_TITLE: '文章数:',
+  HEO_SITE_TIME_TITLE: '建站天数:',
+  HEO_SITE_VISIT_TITLE: '访问量:',
+  HEO_SITE_VISITOR_TITLE: '访客数:',
+
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
   HEO_MENU_INDEX: true, // 显示首页
@@ -124,6 +137,7 @@ const CONFIG = {
 
   HEO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
   HEO_ARTICLE_COPYRIGHT: true, // 显示文章版权声明
+  HEO_ARTICLE_NOT_BY_AI: false, // 显示非AI写作
   HEO_ARTICLE_RECOMMEND: true, // 文章关联推荐
 
   HEO_WIDGET_LATEST_POSTS: true, // 显示最新文章卡
