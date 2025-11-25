@@ -114,6 +114,7 @@ const SEO = props => {
       <meta name='apple-mobile-web-app-capable' content='yes' />
       <meta name='apple-mobile-web-app-status-bar-style' content='default' />
       <meta name='apple-mobile-web-app-title' content={title} />
+      <meta name="msvalidate.01" content="D61CEC696650CE44B3F2137A3DD46841" />
 
       {/* 搜索引擎验证 */}
       {SEO_GOOGLE_SITE_VERIFICATION && (
