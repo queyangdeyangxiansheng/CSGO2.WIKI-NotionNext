@@ -6,7 +6,11 @@ import CONFIG from '../config'
  * @constructor
  */
 const JumpToCommentButton = () => {
+<<<<<<<< HEAD:themes/commerce/components/JumpToCommentButton.js
   if (!CONFIG.WIDGET_TO_COMMENT) {
+========
+  if (!siteConfig('HEO_WIDGET_TO_COMMENT', null, CONFIG)) {
+>>>>>>>> 16f85885f5829ee6969700af8e857b8b04647728:旧版本/themes/heo/components/JumpToCommentButton.js
     return <></>
   }
 
