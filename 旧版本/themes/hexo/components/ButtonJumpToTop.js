@@ -13,11 +13,7 @@ import CONFIG from '../config'
 const ButtonJumpToTop = ({ showPercent = true, percent }) => {
   const { locale } = useGlobal()
 
-<<<<<<< HEAD
-  if (!siteConfig('HEO_WIDGET_TO_TOP', null, CONFIG)) {
-=======
   if (!siteConfig('HEXO_WIDGET_TO_TOP', null, CONFIG)) {
->>>>>>> 16f85885f5829ee6969700af8e857b8b04647728
     return <></>
   }
   return (<div className='space-x-1 items-center justify-center transform hover:scale-105 duration-200 w-7 h-auto pb-1 text-center' onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} >

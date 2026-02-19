@@ -1,9 +1,3 @@
-<<<<<<<< HEAD:themes/hexo/components/ButtonFloatDarkMode.js
-========
-import { useGlobal } from '@/lib/global'
-import { saveDarkModeToLocalStorage } from '@/themes/theme'
-import CONFIG from '../config'
->>>>>>>> 16f85885f5829ee6969700af8e857b8b04647728:旧版本/themes/heo/components/FloatDarkModeButton.js
 import { siteConfig } from '@/lib/config'
 import { useGlobal } from '@/lib/global'
 import { saveDarkModeToLocalStorage } from '@/themes/theme'
